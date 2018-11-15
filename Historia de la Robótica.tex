@@ -14,6 +14,9 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{accents}
 \usepackage{flushend}
+
+\usepackage[hidelinks]{hyperref}
+
 \setlength\parindent{0pt}
 
 % Carpeta con las imágenes
@@ -58,20 +61,12 @@
 
 \normalsize
 
-%Input de las secciones
-% \input{./ruta/a/la/seccion.tex}
 
 % Bibliografía.
 %-----------------------------------------------------------------
 \onecolumn
-\begin{thebibliography}{11}
-
-	%Ejemplo
-	%\bibitem{Cd10}
-	%\textsc{Kwon, Lazar, Devadas, Ford} \\
-	%\textit{Riffle}, Proceedings on Privacy Enhancing; 2016 (2):1-20.
-
-\end{thebibliography}
-
+\bibliography{EtapaModerna}
+\bibliographystyle{plain}
+\nocite{*}
 
 \end{document}
