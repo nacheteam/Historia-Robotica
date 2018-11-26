@@ -1,3 +1,6 @@
+## El pdf no se incluye
+*.pdf
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
