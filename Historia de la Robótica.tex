@@ -13,27 +13,52 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{accents}
 \usepackage{flushend}
+\usepackage{tikz}
+
 
 \usepackage[hidelinks]{hyperref}
 
 \usepackage[vmargin=3cm,hmargin=3cm]{geometry}
 %\setlength\parindent{0pt}
 
+\setlength\parindent{0pt}
+
+
 % Carpeta con las imágenes
 %\graphicspath{{}}
 
 \begin{document}
 
-\title{\textbf{Historia de la Robótica} \\
-		\small{Historia de las Matemáticas}}
-\date{}
-\author{Ignacio Aguilera Martos, Alicia Rodríguez Gómez, Darío Sierra Martínez\\ \\
-	\small Doble Grado en Ingeniería Informática y Matemáticas\\
-	\small Facultad de Ciencias, Universidad de Granada
-}
 
-\maketitle
+	\begin{center}
+		\large{\textbf{Historia de las Matemáticas (2018-2019)} \\ Grado en Ingeniería Informática y Matemáticas \\ Universidad de Granada } 
+		\vspace*{2.5cm}
+		
+		\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{4pt}
+		\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+		\vspace{0.5cm}
+		
+		\Huge{Historia de la Robótica}
+		
+		\vspace{0.5cm}
+		\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+		\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{4pt}
+		
+		\vspace{2cm}
+		
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.5]{TeoriaDeAutomatas/img/logoUgrCiencias}
+	\label{fig:logougrciencias}
+\end{figure}
+		
+		\vspace{1.5cm}
+		\large{Nacho Aguilera Martos, Alicia Rodríguez Gómez, Darío Sierra Martínez \\ \today }
+		
+	\end{center}
 
+
+	\newpage
 \begin{abstract}
 	La computación ha tenido un desarrollo muy acelerado desde el siglo XX a nuestros días tomando para ello diferentes objetivos. En primer lugar se intentó automatizar tareas mediante complicadas máquinas que comenzaron siendo completamente mecánicas para proseguir con las actuales electrónicas. En el transcurso de la historia este intento de automatizar las tareas repetitivas y tediosas ha venido acompañado del desarrollo de tecnologías y campos aledaños como la teoría de autómatas o la inteligencia artificial para lograr lo que hoy en día conocemos como robots, o lo que es lo mismo, sistemas artificiales diseñados con un propósito propio. En este trabajo nos proponemos el estudio de la teoría y avances relacionados con la robótica acompañados de un análisis y revisión de la historia de los robots desde los primeros autómatas diseñados en la época griega hasta robots emocionales e inteligentes como Sophia.
 \end{abstract}
@@ -45,7 +70,7 @@
 \newpage
 
 \section{Teoría de Autómatas, Automatización e Inteligencia Artificial}
-
+\input{./TeoriaDeAutomatas/doc.tex}
 \section{Historia Antigua de la Robótica}
 
 \section{Historia Moderna de la Robótica}
