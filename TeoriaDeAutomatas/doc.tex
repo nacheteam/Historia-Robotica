@@ -405,9 +405,106 @@ Sin embargo, daremos un salto cualitativo importante e iremos directamente al mo
 
 \subsection{La Máquina de Turing}
 
+ Una máquina de turing es un tipo de autómata con memoria infinita, se dispone de un conjunto de cardinal numerable infinito en el que podemos guardar símbolos e información temporal. La manera más sencilla de pensar en dichas máquinas es como una pareja: un cabezal lector y una cinta infinita. El cabezal lee un símbolo y se mueve a izquierda o a derecha dependiendo de la función de transición, de manera rigurosa, una Máquina de Turing es una septupla $MT=(Q,A,B,\delta,q_0,\#,F)$
+
+
+\begin{multicols}{2}
+	\begin{itemize}
+		\item $Q$ es un conjunto finito de estados
+		\item $A$ es un alfabeto de entrada
+		\item $B$ es un alfabeto de símbolos en la cinta , $A\subset B$
+		\item $\delta$ es la función de transición
+		\item $q_0$ es el estado inicial
+		\item $\# \in B-A$ es el 'símbolo blanco'	
+		\item $F$ es el conjunto de estados finales 
+	\end{itemize}
+\end{multicols} 
+ 
+ 
+ Una transición típica de una Máquina de Turing sería $\delta(q_0,0)=(q_1,\#,D)$ Esto quiere decir que si estando en el estado $q_0$ el cabezal lector de la cinta está posicionado sobre una de las celdas de la cinta que contiene un 0, cambiaremos dicho 0 por un $\#$ y moveremos el cabezal lector a la derecha.
+ 
+ A diferencia de un autómata finito que tenía que leer la palabra entera para verificar que pertenecía al lenguaje, se dice que una Máquina de Turing acepta una palabra siempre y cuando llegue a un estado de aceptación, aunque queden símbolos por leer.
+ 
+ En caso de que lleguemos a un estado no final y ya hayamos terminado de leer la palabra se dice que esta se ha rechazado; el problema llega cuando la Máquina cicla de manera indefinida
+
+
+\subsubsection{El problema de la parada}
+
+
+Acabamos de mencionar el problema que se presenta cuando una Máquina de Turing no para, pues aunque técnicamente no rechaza la palabra tampoco la acepta. Existe una equivalencia entre función computable ( algoritmo ) y Máquina de Turing que comentaremos más adelante, entonces, dada una entrada para un algoritmo o de manera equivalente, dada una máquina de turing y una palabra sobre su alfabeto ¿ Es posible saber si la palabra será aceptada o rechazada? La respuesta es que no.
+
+Alan Turing en su artículo \textbf{On Computable Numbers, with an Application to the Entscheidungsproblem} (1936) demostró que existían problemas indecidibles, entre los cuales se encuentra este. La demostración es sencilla:
+
+Supongamos que existe $Stop(P,x)$ un algoritmo capaz de averiguar si el programa $P$ para con los datos $x$. Construimos entonces:
+
+\begin{lstlisting}
+Turing(P):
+
+L	If Stops(P,P), GOTO L
+\end{lstlisting}
+
+\vspace{0.5cm}
+
+Al considerar $Turing(Turing)$ llegamos a contradicción pues el programa para si y solo si no para.
+
+%TODO http://mathworld.wolfram.com/UniversalTuringMachine.html
+\subsubsection{Máquinas de Turing Universales}
+
+Las Máquinas de Turing pueden codificarse mediante símbolos, una Máquina de Turing capaz de leer una codificiación de este tipo y comportarse como dicha máquina se conoce como Máquina Universal de Turing. Un sistema de computo que pueda comportarse de esta manera se dice Turing-completo.
+
+La primera máquina Turing-completa fue el Z3 de Zuse construida en 1941, aunque dicha propiedad fuese demostrada por Raúl Rojas en 1998.
+
+Este es uno de los saltos cualitativos de mayor relevancia en la historia de la computación pues es el inicio de los ordenadores tal y como los conocemos, máquinas capaces de leer algoritmos y ejecutarlos, capaces de ser cualquier máquina.
+
+Aunque \textit{a priori} parezca una propiedad muy complicada de tener veremos que existen numerosos sistemas que poseen esta propiedad, no solo modelos teóricos tremendamente complejos, existen una sería de sistemas, en su mayoría juegos, que poseen esta propiedad, quizá el más señalado sea el juego de la vida de Conway.
 
 
 
+%TODO meter cita
+\subsubsection{El juego de la vida: casualmente turing completo}
+
+El juego de la vida consta de un tablero, en él, las celdas pueden clasificarse como vivas o muertas, se pintan en negro o blanco dependiendo de en qué categoría se encuentren. Una configuración inicial sería un conjunto cualquiera de células vivas. El juego posee 2 reglas:
+
+\begin{multicols}{2}
+	\begin{itemize}
+		\item Una casilla con exactamente 3 vecinas 'vivas' nace.
+		\item Una casilla con 2 o 3 vecinas vivas sigue viva, en otro caso muere.
+	\end{itemize}
+\end{multicols}
+
+
+Pues bien, este juego de 0 jugadores, con estas dos reglas es Turing-completo.
+
+%TODO citar el libro de paco
+\subsection{Inteligencia Artificial}
+
+Abordaremos ahora cómo ha ido evolucionando el paradigma de la inteligencia artificial, desde la inteligencia fuerte ( hacer que las máquinas sean inteligente ) hasta la débil (hacer que se comporten de manera inteligente).
+
+
+La inteligencia artificial se acuñó en el año 1955 en la 'Conferencia de Dartmouth' y describía al inteligencia artificial como : 'la ciencia e ingeniería de hacer máquinas que se comporten de una forma que llamaríamos inteligente si un humano tuviese dicho comportamiento'. 
+
+Como campo de investigación nace un año después en 1956, en la ciudad de Hannover,New Hampshire (EEUU). Mencionaremos otras dos definiciones que muestran la dualidad de la que hablábamos antes:
+
+\begin{itemize}
+	\item 'La intelgencia artifical está relociada con conductas inteligentes en artefactos' (Nilsson,1998).
+	\item 'El nuevo y excitante esfuerzo de hacer que los computadores piensen...,máquinas con mentes, en el sentido más literal' (Haugeland,1985).
+\end{itemize}
+
+La primera definición se centra más en lo que hemos llamado 'inteligencia débil': conseguir que una máquina se comporte de manera inteligente. La segunda es algo más problemática pues si nos cuesta definir y entender el concepto de inteligencia, dotar a un ser inanimado de capacidad de pensamiento como tal, se plantea como un problema mucho más complicado que cualquiera que nos hayamos podido plantear antes.
+
+A colación de esto último comentamos que Turing escribió un articulo en 1950 llamado 'Computing machines and intelligence' en el que propone cuestiones como: ¿Pueden pensar las máquinas?
+
+
+\subsubsection{El Test de Turing}
+
+En dicho artículo Turing propuso un 'test', una prueba que podría hacérsele a una computadora para comprobar si en efecto, presenta algún tipo de inteligencia.
+
+En dicha prueba una persona conversa con un interlocutor al que no ve, e intenta adivinar si dicho interlocutor es un ser humano o una computadora. Si la computadora consigue engañar al humano se dice que ha pasado dicho test. Evidentemente esta conversación no puede delimitarse a ningún tema trivial o a un campo muy delimitado, donde sería fácil engañar al interlocutor humano.
+
+Destacamos la siguiente noticia del diario \href{https://www.abc.es/ciencia/20140609/abci-superordenador-supera-primera-test-201406091139.html}{\textbf{ABC}} de 2014 en el que un ordenador fue capaz de engañar a los jueces del test, haciéndoles creer que era un joven ucraniano de 13 años.
+
+
+\subsubsection{La habitación china}
 
 \newpage
 	
