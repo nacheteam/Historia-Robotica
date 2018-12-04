@@ -1,17 +1,19 @@
-\frametitle{Movimiento}
+\frametitle{NASA}
 \vspace{10px}
 \pause
 \metroset{block=fill}
-\begin{block}{Avance en el movimiento}
+\begin{block}{Brazos Robóticos}
 	\begin{itemize}
-		\item Antecesores: RB5X, Phony Pony, WAP, Aquarobot, ...
+		\item Robonaut, Dextre, Rassor
 		\pause
-		\item ASIMO: \href{https://www.youtube.com/watch?v=mI58DU1hu14}{Vídeo}
+		\item InSight y Mars 2020
+		\pause
+		\item Curiosity
 	\end{itemize}
 \end{block}
 \begin{figure}
 	\centering
 	\pause
-	\includegraphics[scale=0.12]{./EtapaModerna/Imagenes/asimo.jpg}
-	\caption{ASIMO \href{https://es.m.wikipedia.org/wiki/Archivo:ASIMO_4.28.11.jpg}{Wikidata}}
+	\includegraphics[scale=0.02]{./EtapaModerna/Imagenes/curiosity.jpg}
+	\caption{Curiosity \href{https://en.wikipedia.org/wiki/File:Curiosity_Self-Portrait_at_\%27Big_Sky\%27_Drilling_Site.jpg}{Wikimedia}}
 \end{figure}

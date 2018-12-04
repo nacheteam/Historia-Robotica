@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.11)  4 DEC 2018 20:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.11)  4 DEC 2018 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1733,7 +1733,7 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/SCARA.jpg  used on input line
 31.
 (pdftex.def)             Requested size: 75.28181pt x 105.39455pt.
 )
-Overfull \vbox (6.40663pt too high) detected at line 71
+Overfull \vbox (6.40663pt too high) detected at line 79
  []
 
 [11
@@ -1761,7 +1761,7 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/SCARA.jpg  used on input line
 31.
 (pdftex.def)             Requested size: 75.28181pt x 105.39455pt.
 )
-Overfull \vbox (6.40663pt too high) detected at line 71
+Overfull \vbox (6.40663pt too high) detected at line 79
  []
 
 [12
@@ -1788,7 +1788,7 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/SCARA.jpg  used on input line
 31.
 (pdftex.def)             Requested size: 75.28181pt x 105.39455pt.
 )
-Overfull \vbox (6.40663pt too high) detected at line 71
+Overfull \vbox (6.40663pt too high) detected at line 79
  []
 
 [13
@@ -1815,7 +1815,7 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/SCARA.jpg  used on input line
 31.
 (pdftex.def)             Requested size: 75.28181pt x 105.39455pt.
 )
-Overfull \vbox (6.40663pt too high) detected at line 71
+Overfull \vbox (6.40663pt too high) detected at line 79
  []
 
 [14
@@ -1842,7 +1842,7 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/SCARA.jpg  used on input line
 31.
 (pdftex.def)             Requested size: 75.28181pt x 105.39455pt.
 )
-Overfull \vbox (6.40663pt too high) detected at line 71
+Overfull \vbox (6.40663pt too high) detected at line 79
  []
 
 [15
@@ -1869,7 +1869,7 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/SCARA.jpg  used on input line
 31.
 (pdftex.def)             Requested size: 75.28181pt x 105.39455pt.
 )
-Overfull \vbox (6.40663pt too high) detected at line 71
+Overfull \vbox (6.40663pt too high) detected at line 79
  []
 
 [16
@@ -1896,7 +1896,7 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/SCARA.jpg  used on input line
 31.
 (pdftex.def)             Requested size: 75.28181pt x 105.39455pt.
 )
-Overfull \vbox (6.40663pt too high) detected at line 71
+Overfull \vbox (6.40663pt too high) detected at line 79
  []
 
 [17
@@ -1912,7 +1912,7 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/asimo.jpg  used on input line
 15.
 (pdftex.def)             Requested size: 86.72025pt x 130.08038pt.
 )
-Overfull \vbox (20.3481pt too high) detected at line 90
+Overfull \vbox (20.3481pt too high) detected at line 102
  []
 
 [18
@@ -1924,7 +1924,7 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/asimo.jpg  used on input line
 15.
 (pdftex.def)             Requested size: 86.72025pt x 130.08038pt.
 )
-Overfull \vbox (20.3481pt too high) detected at line 90
+Overfull \vbox (20.3481pt too high) detected at line 102
  []
 
 [19
@@ -1936,7 +1936,7 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/asimo.jpg  used on input line
 15.
 (pdftex.def)             Requested size: 86.72025pt x 130.08038pt.
 )
-Overfull \vbox (20.3481pt too high) detected at line 90
+Overfull \vbox (20.3481pt too high) detected at line 102
  []
 
 [20
@@ -1948,10 +1948,89 @@ Package pdftex.def Info: ./EtapaModerna/Imagenes/asimo.jpg  used on input line
 15.
 (pdftex.def)             Requested size: 86.72025pt x 130.08038pt.
 )
-Overfull \vbox (20.3481pt too high) detected at line 90
+Overfull \vbox (20.3481pt too high) detected at line 102
  []
 
 [21
+
+]
+\openout4 = `"Historia de la Robótica.vrb"'.
+
+ (./Historia de la Robótica.vrb) [22
+
+] (./Historia de la Robótica.vrb)
+[23
+
+] (./Historia de la Robótica.vrb) [24
+
+] (./Historia de la Robótica.vrb)
+[25
+
+] (./Historia de la Robótica.vrb) [26
+
+]
+\openout4 = `"Historia de la Robótica.vrb"'.
+
+ (./Historia de la Robótica.vrb
+<./EtapaModerna/Imagenes/curiosity.jpg, id=263, 4499.81125pt x 6203.175pt>
+File: ./EtapaModerna/Imagenes/curiosity.jpg Graphic file (type jpg)
+<use ./EtapaModerna/Imagenes/curiosity.jpg>
+Package pdftex.def Info: ./EtapaModerna/Imagenes/curiosity.jpg  used on input l
+ine 17.
+(pdftex.def)             Requested size: 90.01523pt x 124.08969pt.
+)
+Overfull \vbox (33.10178pt too high) detected at line 148
+ []
+
+[27
+
+ <./EtapaModerna/Imagenes/curiosity.jpg>] (./Historia de la Robótica.vrb
+File: ./EtapaModerna/Imagenes/curiosity.jpg Graphic file (type jpg)
+<use ./EtapaModerna/Imagenes/curiosity.jpg>
+Package pdftex.def Info: ./EtapaModerna/Imagenes/curiosity.jpg  used on input l
+ine 17.
+(pdftex.def)             Requested size: 90.01523pt x 124.08969pt.
+)
+Overfull \vbox (33.10178pt too high) detected at line 148
+ []
+
+[28
+
+] (./Historia de la Robótica.vrb
+File: ./EtapaModerna/Imagenes/curiosity.jpg Graphic file (type jpg)
+<use ./EtapaModerna/Imagenes/curiosity.jpg>
+Package pdftex.def Info: ./EtapaModerna/Imagenes/curiosity.jpg  used on input l
+ine 17.
+(pdftex.def)             Requested size: 90.01523pt x 124.08969pt.
+)
+Overfull \vbox (33.10178pt too high) detected at line 148
+ []
+
+[29
+
+] (./Historia de la Robótica.vrb
+File: ./EtapaModerna/Imagenes/curiosity.jpg Graphic file (type jpg)
+<use ./EtapaModerna/Imagenes/curiosity.jpg>
+Package pdftex.def Info: ./EtapaModerna/Imagenes/curiosity.jpg  used on input l
+ine 17.
+(pdftex.def)             Requested size: 90.01523pt x 124.08969pt.
+)
+Overfull \vbox (33.10178pt too high) detected at line 148
+ []
+
+[30
+
+] (./Historia de la Robótica.vrb
+File: ./EtapaModerna/Imagenes/curiosity.jpg Graphic file (type jpg)
+<use ./EtapaModerna/Imagenes/curiosity.jpg>
+Package pdftex.def Info: ./EtapaModerna/Imagenes/curiosity.jpg  used on input l
+ine 17.
+(pdftex.def)             Requested size: 90.01523pt x 124.08969pt.
+)
+Overfull \vbox (33.10178pt too high) detected at line 148
+ []
+
+[31
 
 ])
 \tf@nav=\write6
@@ -1980,10 +2059,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32899 strings out of 492982
- 780427 string characters out of 6134895
+ 32950 strings out of 492982
+ 781425 string characters out of 6134895
  987829 words of memory out of 5000000
- 35700 multiletter control sequences out of 15000+600000
+ 35710 multiletter control sequences out of 15000+600000
  10085 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,101p,1829b,862s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1992,10 +2071,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Historia de la Robótica.pdf" (21 pages, 13489228 bytes).
+Output written on "Historia de la Robótica.pdf" (31 pages, 16461714 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
