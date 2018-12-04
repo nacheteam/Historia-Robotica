@@ -1,0 +1,64 @@
+
+La computación ha tenido un desarrollo muy acelerado desde el siglo XX a nuestros días tomando para ello diferentes objetivos. En primer lugar se intentó automatizar tareas mediante complicadas máquinas que comenzaron siendo completamente mecánicas para proseguir con las actuales electrónicas. En el transcurso de la historia este intento de automatizar las tareas repetitivas y tediosas ha venido acompañado del desarrollo de tecnologías y campos aledaños como la teoría de autómatas o la inteligencia artificial para lograr lo que hoy en día conocemos como robots, o lo que es lo mismo, sistemas artificiales diseñados con un propósito propio. En este trabajo nos proponemos el estudio de la teoría y avances relacionados con la robótica acompañados de un análisis y revisión de la historia de los robots desde los primeros autómatas diseñados en la época griega hasta robots emocionales e inteligentes como Sophia.
+
+\vspace{10px}
+
+
+Primero queremos hacer una reflexión sobre los conceptos que vamos a tratar pues han sufrido un cambio bastante significativo bajo nuestro punto de vista a lo largo del tiempo. Es decir: muchos de los 'robots' de los que hablaremos serían considerados tales en su época, aunque es posible que el público en general no los viese como tal. Queremos por tanto, recalcar el hecho de que intentaremos ver cada 'robot' en su contexto histórico; aunque esto no vaya a ser necesario en la sección de robótica moderna, ayudará a comprender la relación entre la estructura teórica y los ejemplos dados en el trabajo.
+
+\vspace{10px}
+
+Claro está que un 'robot' es un tipo de máquina, sin embargo, como explicaremos, este concepto es algo difuso pues no solo se ha visto alterado con el paso del tiempo, sino que incluso restringiéndonos  al conjunto de elementos que hoy entendemos como máquinas, se produce un gran problema en la categorización de un sistema como máquina. Esto se debe a qué entendemos por máquina; aun siendo un concepto más simple que el de robot ya es tremendamente complejo, porque: ¿Qué es realmente una máquina?
+
+\subsection{Sobre la noción de máquina}
+
+
+Partimos del concepto más simple hasta ahora mencionado, 'la máquina' y de entre ellas las más sencillas de entender, las máquinas aristotélicas, siglo III A.C: \\
+
+-Simple machine, any of several devices with few or no moving parts that are used to modify motion and force in order to perform work. (Enciclopedia Britannica) \\
+
+
+Serían: El plano inclinado, La palanca, La polea, El torno, La cuña y el tornillo. El primer enfoque de qué es una máquina está mucho más relacionado con el equilibro de fuerzas en un sistema estático que con la abstracta definición de qué cosas son máquinas que tenemos hoy en día. 
+
+\vspace{10px}
+
+Llegamos al siglo XVI, la idea de una máquina es la de un objeto que cuyas partes distinguibles pueden ser clasificadas como una de las anteriores máquinas simples. \\
+
+- 'Thus Leonardo was the first to advocate the necessity of a science of mechanisms.' -  \\
+
+- ' A book about the nature of mechanism must precede a book about their aplications' \\
+
+Ladislao Retti: 'The Unknown Leonardo' \\
+
+Este pensamiento hace avanzar la 'ciencia de la máquina' , en los siglos anteriores el estudio de las máquinas era empírico alejado de cualquier conceptualización teórica. Es decir, el conjunto de las máquinas estaba definido por extensión. Este paso cualitativo permitió el comienzo de la conceptualización teórica de las máquinas.
+
+\vspace{10px}
+
+Vemos el auge de este pensamiento en el mecanicismo filosófico. Encontramos grandes matemáticos como Descartes o Newton participando en esta teoría. El concepto de máquina evoluciona, una máquina será aquel objeto descriptible mediante las leyes de la física, la mecánica (clásica) concretamente. Vemos una definición intensiva en contraposición al pensamiento anterior. Nace con Descartes el pensamiento de que una máquina no es necesariamente un objeto artificial, considerando los animales de manera mecánica, complicada, sí, pero máquina \textit{per se}. 
+
+
+La evolución del termino 'maquina' se va alejando cada vez más de la aplicación concreta de la 'maquina' en sí, hacia el concepto de que una máquina es aquel objeto cuyo comportamiento es determinista. \\
+
+- A machine (or mechanical device) is a mechanical structure that uses power to apply forces and control movement to perform an intended action (Wikipedia) \\
+
+A nuestros ojos, la definición parece incompleta por lo pronto, pues en el conjunto que define encontraríamos las máquinas simples,los coches pero no los ordenadores. ¿Es que acaso no son máquinas? Si bien es cierto que un ordenador puede comportarse de este modo, no es una cualidad intrínseca de un ordenador. Es decir: podemos conectar un actuador mecánico para que cumpla la definición, pero no tiene mucho sentido que al desconectárselo deje de ser una máquina. 
+
+\vspace{10px}
+
+El elemento invariante es su cualidad determinística, una máquina actúa conforme a un patrón. La categorización de un objeto físico como una máquina se produce cuando de su comportamiento se elimina el azar, se puede conocer su estado exacto ante un estímulo dado.
+
+
+
+\subsubsection{¿Qué es un autómata? (mecánica)}
+
+Queda claro que un autómata debería ser algún tipo de máquina, es decir: en esencia debería presentar un comportamiento determinista. Aquí cobra importancia la noción de 'automatización'.
+
+\vspace{10px}
+
+Autómata proviene de la palabra griega \textbf{\textgreek{αὐτόματος}} , cuya traducción seria '\textbf{que se mueve por si mismo}'. Es decir, la noción de 'automatización' es clave en el entendimiento clásico de  qué es un autómata; sería por tanto una máquina capaz de actuar sin intervención humana. Dejaríamos fuera de este conjunto a todas la máquinas simples y a los coches por ejemplo, pues no son capaces de llevar a cabo su función sin una intervencion expresa.
+
+\vspace{10px}
+
+Entonces: ¿Qué entendemos por robot?. Intentaremos dar una respuesta teórica y varias prácticas. De momento, daremos una definición algo informal: consideramos un robot toda máquina que presente al menos una funcionalidad que pueda ser asociada con un autómata. Con esto queremos resaltar que una máquina en principio puede componerse de otras más simples, como comentábamos antes con el caso de las máquinas aristotélicas, por tanto mientras una de ellas pueda considerarse un autómata, bajo la definición mecanicista que hemos dado; podremos considerarlo un robot. En las sucesivas secciones del trabajo refinaremos este definición.
+
+\newpage

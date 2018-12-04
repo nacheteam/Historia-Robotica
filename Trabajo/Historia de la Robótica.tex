@@ -1,0 +1,150 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{extsizes}
+\usepackage{amssymb}
+\usepackage{dsfont}
+\usepackage{graphicx}
+\usepackage{cancel}
+\usepackage[usenames]{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{accents}
+\usepackage{flushend}
+\usepackage{tikz}
+\usepackage[LGR,T1]{fontenc}
+\newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}
+\usetikzlibrary{arrows,automata}
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+\usepackage{listings}
+\usepackage{graphics,graphicx, float} %para incluir imágenes y colocarlas
+
+
+
+\usepackage[hidelinks]{hyperref}
+
+\usepackage[vmargin=3cm,hmargin=3cm]{geometry}
+%\setlength\parindent{0pt}
+
+\setlength\parindent{0pt}
+
+
+% Carpeta con las imágenes
+%\graphicspath{{}}
+
+\begin{document}
+
+
+	\begin{center}
+		\large{\textbf{Historia de las Matemáticas (2018-2019)} \\ Grado en Ingeniería Informática y Matemáticas \\ Universidad de Granada }
+		\vspace*{2.5cm}
+
+		\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{4pt}
+		\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+		\vspace{0.5cm}
+
+		\Huge{Historia de la Robótica}
+
+		\vspace{0.5cm}
+		\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+		\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{4pt}
+
+		\vspace{2cm}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.5]{TeoriaDeAutomatas/img/logoUgrCiencias}
+	\label{fig:logougrciencias}
+\end{figure}
+
+		\vspace{1.5cm}
+		\large{Ignacio Aguilera Martos, Alicia Rodríguez Gómez, Darío Sierra Martínez \\ \today }
+
+	\end{center}
+
+
+
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introducción}
+\input{./intro.tex}
+
+\section{Teoría de Autómatas, Automatización e Inteligencia Artificial}
+\input{./TeoriaDeAutomatas/doc.tex}
+
+\section{Historia Antigua de la Robótica}
+\input{./EtapaPrimeriza/historia.tex}
+
+\section{Historia Moderna de la Robótica}
+
+%Introducción
+\subsection{Introducción}
+\input{./EtapaModerna/introduccion.tex}
+
+%Desarrollo de los laboratorios de IA
+\subsection{Inicios de la Inteligencia Artificial}
+\input{./EtapaModerna/laboratorios_ia.tex}
+
+%Robotics Institute
+\subsection{Robotics Institute}
+\input{./EtapaModerna/robotics_institute.tex}
+
+%WABOT
+\subsection{El primer robot antropomórfico: WABOT}
+\input{./EtapaModerna/wabot.tex}
+
+%Brazos robóticos
+\subsection{Brazos Robóticos}
+\input{./EtapaModerna/brazos_roboticos.tex}
+
+%Inicios los movimientos humanos
+\subsection{Mejora en la movilidad de los Robots}
+\input{./EtapaModerna/movimiento_robots.tex}
+
+%iRobot
+\subsection{iRobot}
+\input{./EtapaModerna/irobot.tex}
+
+%Estado actual de la robótica
+\subsection{State of Art de la Robótica}
+\input{./EtapaModerna/estado_del_arte.tex}
+
+\newpage
+\section{Conclusiones}
+Tras todo este desarrollo hemos podido comprobar la teoría subyacente a los modelos robóticos que conocemos en la actualidad, desde los más simples hasta los más complejos. Si seguimos la línea temporal marcada durante este trabajo hemos visto como el objetivo de los robots ha ido cambiando progresivamente. En un inicio, los robots eran un mero entretenimiento, una máquina que se pudiera enseñar funcionando pero que realmente no eran de ayuda ni siquiera útiles en muchos casos. Este paradigma fue tornándose conforme avanzó el tiempo y el concepto automatización y robótica se quiso mezclar para eliminar al personal humano de las tareas tediosas y repetitivas, tal y como pasó con sistemas como los telares de Jacquard. Actualmente continuamos en este objetivo de la robótica pero ahora ya no sólo se pretende sustituirnos en tareas repetitivas, si no que se pretende que éstos puedan hacer tareas para las que se necesita pensar y cierta inteligencia.
+
+\vspace{10px}
+
+En este terreno se está avanzando enormemente, por ejemplo, no sería viable sacrificar a personas para viajar a Marte y poder obtener información de su clima, suelo o incluso vida si la hubiera. Para ello estamos avanzando con robots como el Curiosity, el Mars 2020 o el proyecto InSight. Además no sólo aplica esto a las operaciones espaciales, si no que también se encuentra en campos como la medicina, la asistencia a las personas, la vigilancia, la industria militar, etc. 
+
+\vspace{10px}
+
+En este momento estamos en el punto álgido de la robótica en el cual se está produciendo una inversión enorme en el campo por parte de las compañías más grandes del mundo como ha estado ocurriendo, por ejemplo, con Honda y sus robots ASIMO. Un dato a destacar es que, no sólo se requiere una mayor inversión y un desarrollo en las especificaciones de la tecnología, si no que también es muy importante el apoyo al estudio teórico como ocurrió desde los laboratorios de inteligencia artificial en la década de los 60 y 70. Es muy importante no sólo desarrollar mejores máquinas, si no además nuevas técnicas y métodos que mejoren los algoritmos ya existentes y esto abarca desde la representación del conocimiento, la inteligencia artificial e incluso el desarrollo de nuevos lenguajes y técnicas de programación hasta el desarrollo de algoritmos y ordenadores cuánticos.
+
+\vspace{10px}
+
+En este trabajo no hemos podido tocar todos los campos en los que actualmente se están trabajando y desarrollando tecnología, pues la extensión hubiera sido casi inabarcable. En este sentido cabe destacar que no sólo se están siguiendo las líneas de investigación que hemos marcado en este trabajo, si no que por ejemplo, podemos destacar la incorporación de nuevos campos en la robótica tales como la biónica, la biométrica o los robots cuánticos. Estos campos son actualmente muy relevantes, ya que por ejemplo la incorporación de ordenadores cuánticos a los robots haría que algunas tareas que actualmente son muy costosas computacionalmente, se hicieran de una forma mucho más ágil. Además, en nuestro camino hacia el entendimiento del funcionamiento de los animales, estamos desarrollando robots que imiten su comportamiento no sólo como un medio de entretenimiento en exposiciones, si no también para profundizar nuestras nociones en la locomoción de los mismos. En cuanto al terreno de las prótesis son muchos los avances que se están logrando en la actualidad con implantes de manos, brazos y piernas que ya van conectados a nuestro sistema nervioso con lo que, mediante un proceso de adaptación, podemos manejar dichas prótesis como lo haríamos con nuestras extremidades. 
+
+\vspace{10px}
+
+En este punto no sabemos qué camino acabará tomando la robótica dentro de un tiempo, pero lo que sí sabemos es que seguirá siendo un sector muy potente con un desarrollo enorme en un futuro a corto y medio plazo.
+
+\normalsize
+
+
+% Bibliografía.
+%-----------------------------------------------------------------
+\onecolumn
+\bibliography{referencias}
+\bibliographystyle{plain}
+\nocite{*}
+
+\end{document}
