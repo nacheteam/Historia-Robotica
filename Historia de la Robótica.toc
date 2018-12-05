@@ -1,0 +1,61 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Teor\IeC {\'\i }a de Aut\IeC {\'o}matas, Automatizaci\IeC {\'o}n e Inteligencia Artificial}{5}{section.1}
+\contentsline {subsection}{\numberline {1.1}Sobre la noci\IeC {\'o}n de m\IeC {\'a}quina}{5}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}\IeC {\textquestiondown }Qu\IeC {\'e} es un aut\IeC {\'o}mata? (mec\IeC {\'a}nica)}{6}{subsubsection.1.1.1}
+\contentsline {subsection}{\numberline {1.2}Conceptualizaci\IeC {\'o}n de la m\IeC {\'a}quina y el aut\IeC {\'o}mata.}{6}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Algebras de Boole y sistemas combinacionales}{6}{subsubsection.1.2.1}
+\contentsline {subsection}{\numberline {1.3}Aut\IeC {\'o}matas finitos}{7}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Aumentando la abstracci\IeC {\'o}n: Lenguajes y problemas }{7}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}No-Determinismo}{9}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}Ejemplos de Aut\IeC {\'o}matas}{10}{subsubsection.1.3.3}
+\contentsline {subsection}{\numberline {1.4}La jerarqu\IeC {\'\i }a de Chomsky}{11}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}La M\IeC {\'a}quina de Turing}{12}{subsection.1.5}
+\contentsline {subsubsection}{\numberline {1.5.1}El problema de la parada}{13}{subsubsection.1.5.1}
+\contentsline {subsubsection}{\numberline {1.5.2}M\IeC {\'a}quinas de Turing Universales}{13}{subsubsection.1.5.2}
+\contentsline {subsubsection}{\numberline {1.5.3}El juego de la vida: casualmente Turing-completo}{14}{subsubsection.1.5.3}
+\contentsline {subsection}{\numberline {1.6}Inteligencia Artificial}{14}{subsection.1.6}
+\contentsline {subsubsection}{\numberline {1.6.1}El Test de Turing}{14}{subsubsection.1.6.1}
+\contentsline {subsubsection}{\numberline {1.6.2}La habitaci\IeC {\'o}n china}{15}{subsubsection.1.6.2}
+\contentsline {subsubsection}{\numberline {1.6.3}Agentes Inteligentes}{15}{subsubsection.1.6.3}
+\contentsline {subsubsection}{\numberline {1.6.4}Las tortugas de Walter: un ejemplo de agente}{16}{subsubsection.1.6.4}
+\contentsline {subsection}{\numberline {1.7}Fronteras}{16}{subsection.1.7}
+\contentsline {section}{\numberline {2}Historia Antigua de la Rob\IeC {\'o}tica}{18}{section.2}
+\contentsline {subsection}{\numberline {2.1}Definici\IeC {\'o}n y Descripci\IeC {\'o}n de un Robot}{18}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Or\IeC {\'\i }genes de la Rob\IeC {\'o}tica (Griegos)}{18}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Sistemas Mec\IeC {\'a}nicos Simples}{22}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Leonardo da Vinci}{23}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}M\IeC {\'a}quina Calculadora de Pascal}{23}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Isaac Asimov y las reglas de la rob\IeC {\'o}tica}{24}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Tortugas aut\IeC {\'o}nomas de Walter}{25}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}El brazo rob\IeC {\'o}tico teleoperado de Goertz}{25}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Aut\IeC {\'o}noma Universal de George Devol}{26}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}Sputnik}{27}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Robots Industriales de Generals Motors}{29}{subsection.2.11}
+\contentsline {section}{\numberline {3}Historia Moderna de la Rob\IeC {\'o}tica}{29}{section.3}
+\contentsline {subsection}{\numberline {3.1}Introducci\IeC {\'o}n}{29}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Inicios de la Inteligencia Artificial}{30}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}SRI}{30}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Laboratorios de IA del MIT}{31}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3}Robotics Institute}{31}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}El primer robot antropom\IeC {\'o}rfico: WABOT}{31}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Brazos Rob\IeC {\'o}ticos}{32}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Stanford Arm}{32}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}T3}{32}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}PUMA}{33}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}MOGURA}{33}{subsubsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.5}SCARA}{33}{subsubsection.3.5.5}
+\contentsline {subsection}{\numberline {3.6}Mejora en la movilidad de los Robots}{34}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Introducci\IeC {\'o}n}{34}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}RB5X de RB Robot Corporation}{34}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Phony Pony}{35}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.4}WAP1}{35}{subsubsection.3.6.4}
+\contentsline {subsubsection}{\numberline {3.6.5}WL-9DR}{35}{subsubsection.3.6.5}
+\contentsline {subsubsection}{\numberline {3.6.6}Aquarobot}{36}{subsubsection.3.6.6}
+\contentsline {subsubsection}{\numberline {3.6.7}Honda y el gran avance}{37}{subsubsection.3.6.7}
+\contentsline {subsection}{\numberline {3.7}iRobot}{38}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}State of Art de la Rob\IeC {\'o}tica}{39}{subsection.3.8}
+\contentsline {subsubsection}{\numberline {3.8.1}NASA}{39}{subsubsection.3.8.1}
+\contentsline {subsubsection}{\numberline {3.8.2}Robots militares}{42}{subsubsection.3.8.2}
+\contentsline {subsubsection}{\numberline {3.8.3}Avances de la IA}{44}{subsubsection.3.8.3}
+\contentsline {subsubsection}{\numberline {3.8.4}Robots humanoides}{46}{subsubsection.3.8.4}
+\contentsline {section}{\numberline {4}Conclusiones}{49}{section.4}
