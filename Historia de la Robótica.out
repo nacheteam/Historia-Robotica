@@ -1,0 +1,60 @@
+\BOOKMARK [1][-]{section.1}{Teor\355a de Aut\363matas, Automatizaci\363n e Inteligencia Artificial}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Sobre la noci\363n de m\341quina}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{\277Qu\351 es un aut\363mata? \(mec\341nica\)}{subsection.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Conceptualizaci\363n de la m\341quina y el aut\363mata.}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Algebras de Boole y sistemas combinacionales}{subsection.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.3}{Aut\363matas finitos}{section.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Aumentando la abstracci\363n: Lenguajes y problemas }{subsection.1.3}% 7
+\BOOKMARK [3][-]{subsubsection.1.3.2}{No-Determinismo}{subsection.1.3}% 8
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Ejemplos de Aut\363matas}{subsection.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.4}{La jerarqu\355a de Chomsky}{section.1}% 10
+\BOOKMARK [2][-]{subsection.1.5}{La M\341quina de Turing}{section.1}% 11
+\BOOKMARK [3][-]{subsubsection.1.5.1}{El problema de la parada}{subsection.1.5}% 12
+\BOOKMARK [3][-]{subsubsection.1.5.2}{M\341quinas de Turing Universales}{subsection.1.5}% 13
+\BOOKMARK [3][-]{subsubsection.1.5.3}{El juego de la vida: casualmente Turing-completo}{subsection.1.5}% 14
+\BOOKMARK [2][-]{subsection.1.6}{Inteligencia Artificial}{section.1}% 15
+\BOOKMARK [3][-]{subsubsection.1.6.1}{El Test de Turing}{subsection.1.6}% 16
+\BOOKMARK [3][-]{subsubsection.1.6.2}{La habitaci\363n china}{subsection.1.6}% 17
+\BOOKMARK [3][-]{subsubsection.1.6.3}{Agentes Inteligentes}{subsection.1.6}% 18
+\BOOKMARK [3][-]{subsubsection.1.6.4}{Las tortugas de Walter: un ejemplo de agente}{subsection.1.6}% 19
+\BOOKMARK [2][-]{subsection.1.7}{Fronteras}{section.1}% 20
+\BOOKMARK [1][-]{section.2}{Historia Antigua de la Rob\363tica}{}% 21
+\BOOKMARK [2][-]{subsection.2.1}{Definici\363n y Descripci\363n de un Robot}{section.2}% 22
+\BOOKMARK [2][-]{subsection.2.2}{Or\355genes de la Rob\363tica \(Griegos\)}{section.2}% 23
+\BOOKMARK [2][-]{subsection.2.3}{Sistemas Mec\341nicos Simples}{section.2}% 24
+\BOOKMARK [2][-]{subsection.2.4}{Leonardo da Vinci}{section.2}% 25
+\BOOKMARK [2][-]{subsection.2.5}{M\341quina Calculadora de Pascal}{section.2}% 26
+\BOOKMARK [2][-]{subsection.2.6}{Isaac Asimov y las reglas de la rob\363tica}{section.2}% 27
+\BOOKMARK [2][-]{subsection.2.7}{Tortugas aut\363nomas de Walter}{section.2}% 28
+\BOOKMARK [2][-]{subsection.2.8}{El brazo rob\363tico teleoperado de Goertz}{section.2}% 29
+\BOOKMARK [2][-]{subsection.2.9}{Aut\363noma Universal de George Devol}{section.2}% 30
+\BOOKMARK [2][-]{subsection.2.10}{Sputnik}{section.2}% 31
+\BOOKMARK [2][-]{subsection.2.11}{Robots Industriales de Generals Motors}{section.2}% 32
+\BOOKMARK [1][-]{section.3}{Historia Moderna de la Rob\363tica}{}% 33
+\BOOKMARK [2][-]{subsection.3.1}{Introducci\363n}{section.3}% 34
+\BOOKMARK [2][-]{subsection.3.2}{Inicios de la Inteligencia Artificial}{section.3}% 35
+\BOOKMARK [3][-]{subsubsection.3.2.1}{SRI}{subsection.3.2}% 36
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Laboratorios de IA del MIT}{subsection.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.3}{Robotics Institute}{section.3}% 38
+\BOOKMARK [2][-]{subsection.3.4}{El primer robot antropom\363rfico: WABOT}{section.3}% 39
+\BOOKMARK [2][-]{subsection.3.5}{Brazos Rob\363ticos}{section.3}% 40
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Stanford Arm}{subsection.3.5}% 41
+\BOOKMARK [3][-]{subsubsection.3.5.2}{T3}{subsection.3.5}% 42
+\BOOKMARK [3][-]{subsubsection.3.5.3}{PUMA}{subsection.3.5}% 43
+\BOOKMARK [3][-]{subsubsection.3.5.4}{MOGURA}{subsection.3.5}% 44
+\BOOKMARK [3][-]{subsubsection.3.5.5}{SCARA}{subsection.3.5}% 45
+\BOOKMARK [2][-]{subsection.3.6}{Mejora en la movilidad de los Robots}{section.3}% 46
+\BOOKMARK [3][-]{subsubsection.3.6.1}{Introducci\363n}{subsection.3.6}% 47
+\BOOKMARK [3][-]{subsubsection.3.6.2}{RB5X de RB Robot Corporation}{subsection.3.6}% 48
+\BOOKMARK [3][-]{subsubsection.3.6.3}{Phony Pony}{subsection.3.6}% 49
+\BOOKMARK [3][-]{subsubsection.3.6.4}{WAP1}{subsection.3.6}% 50
+\BOOKMARK [3][-]{subsubsection.3.6.5}{WL-9DR}{subsection.3.6}% 51
+\BOOKMARK [3][-]{subsubsection.3.6.6}{Aquarobot}{subsection.3.6}% 52
+\BOOKMARK [3][-]{subsubsection.3.6.7}{Honda y el gran avance}{subsection.3.6}% 53
+\BOOKMARK [2][-]{subsection.3.7}{iRobot}{section.3}% 54
+\BOOKMARK [2][-]{subsection.3.8}{State of Art de la Rob\363tica}{section.3}% 55
+\BOOKMARK [3][-]{subsubsection.3.8.1}{NASA}{subsection.3.8}% 56
+\BOOKMARK [3][-]{subsubsection.3.8.2}{Robots militares}{subsection.3.8}% 57
+\BOOKMARK [3][-]{subsubsection.3.8.3}{Avances de la IA}{subsection.3.8}% 58
+\BOOKMARK [3][-]{subsubsection.3.8.4}{Robots humanoides}{subsection.3.8}% 59
+\BOOKMARK [1][-]{section.4}{Conclusiones}{}% 60
