@@ -1,30 +1,21 @@
-\frametitle{Avances de la IA}
+\frametitle{Robots Humanoides}
 \vspace{10px}
 \pause
 \metroset{block=fill}
-\begin{block}{Sectores principales}
+\begin{block}{Principales Robots}
 	\begin{itemize}
-		\item Salud: Watson, brazos robóticos, prótesis, ...
+		\item Actroid: asistente por voz sencillo.
 		\pause
-		\item Automoción: conducción inteligente y asistencia.
+		\item Wakamaru: robot para las casas.
 		\pause
-		\item Economía: análisis de la banca y operaciones en bolsa.
+		\item iCub: imitación de movimientos humanos complejos.
 		\pause
-		\item Publicidad: más efectiva.
+		\item Sophia: interacción oral y gestual. Gestión de las emociones.
 	\end{itemize}
 \end{block}
 \begin{figure}
 	\centering
 	\pause
-	\begin{subfigure}{0.45\textwidth}
-		\centering
-		\includegraphics[scale=0.025]{./EtapaModerna/Imagenes/autopilot.jpg}
-		\caption{Autopilot \href{https://commons.wikimedia.org/wiki/File:Tesla_Autopilot_Engaged_in_Model_X.jpg}{Wikimedia}}
-	\end{subfigure}
-	\pause
-	\begin{subfigure}{0.45\textwidth}
-		\centering
-		\includegraphics[scale=0.07]{./EtapaModerna/Imagenes/robot_surgery.jpg}
-		\caption{Robot para laparoscopia \href{https://es.m.wikipedia.org/wiki/Archivo:Laproscopic_Surgery_Robot.jpg}{Wikidata, por Nimur}}
-	\end{subfigure}
+	\includegraphics[scale=0.12]{./EtapaModerna/Imagenes/robots_humanoides.png}
+	\caption{Actroid \href{https://commons.wikimedia.org/wiki/File:Actroid_3.jpg}{Wikimedia}, Wakamaru \href{https://commons.wikimedia.org/wiki/File:Wakamaru-fullshot2011.jpg}{Wikimedia}, iCub \href{https://commons.wikimedia.org/wiki/File:ICub_Innorobo_Lyon_2014.JPG}{Wikimedia}, Sophia \href{https://es.wikipedia.org/wiki/Archivo:Sophia_(robot).jpg}{Wikimedia}}
 \end{figure}
