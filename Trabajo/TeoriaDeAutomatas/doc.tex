@@ -1,7 +1,7 @@
 
 
 
-En esta parte abarcaremos qué es un robot, la posible equivalencia entre robot y autómata y la evolución de estos conceptos a lo largo del tiempo. Es decir claro queda que un robot debe ser un tipo de máquina, pero la noción de lo que es una máquina ha variado significativamente a lo largo del tiempo. 
+En esta parte abarcaremos qué es un robot, la posible equivalencia entre robot y autómata y la evolución de estos conceptos a lo largo del tiempo. Es decir, claro queda que un robot debe ser un tipo de máquina, pero la noción de lo que es una máquina ha variado significativamente a lo largo del tiempo. 
 
 \vspace{10px}
 
@@ -46,7 +46,7 @@ En 1642 el filósofo y matemático francés Blaise Pascal inventó una calculado
 \subsection{Autómatas finitos}
 
 
-En el siglo XX nace la teoría de autómatas como siguiente nivel de conceptualización sobre qué son las máquinas y qué pueden hacer, la pregunta fundamental de este momento histórico es : ¿Qué problemas puede resolver una máquina?.
+En el siglo XX nace la teoría de autómatas como siguiente nivel de conceptualización sobre qué son las máquinas y qué pueden hacer, la pregunta fundamental de este momento histórico es: ¿Qué problemas puede resolver una máquina?.
 
 \vspace{10px}
 
@@ -58,7 +58,7 @@ Un autómata finito tiene estados, posiciones de memoria que dependerán de las 
 
 - En electrónica un autómata es un sistema secuencial, aunque en ocasiones la palabra es utilizada también para referirse a un robot. [...] Sin embargo, la rápida evolución de los autómatas hace que esta definición no esté cerrada. (Wikipedia)- \\
 
-Aquí un sistema secuencial es justo lo que hemos definido como autómata, un sistema combinacional dotado de memoria.  Un ejemplo muy sencillo de un cálculo que podría hacerse con un autómata finito y no bastaría con un sistema combinacional, sería la tarea de decidir si un conjunto de ceros es par o impar. Esto puede parecer una tarea trivial pero es un cálculo recurrente en la comprobación de errores de protocolos de comunicación tan conocidos como el TCP/IP, que implementan un bit te paridad para este fin.
+Aquí un sistema secuencial es justo lo que hemos definido como autómata, un sistema combinacional dotado de memoria.  Un ejemplo muy sencillo de un cálculo que podría hacerse con un autómata finito y no bastaría con un sistema combinacional, sería la tarea de decidir si un conjunto de ceros es par o impar. Esto puede parecer una tarea trivial pero es un cálculo recurrente en la comprobación de errores de protocolos de comunicación tan conocidos como el TCP/IP, que implementan un bit de paridad para este fin.
 
 \vspace{10px}
 
@@ -68,11 +68,11 @@ Definiremos qué es un autómata con más rigurosidad en lo que sigue, pero por 
 \subsubsection{Aumentando la abstracción: Lenguajes y problemas }
 
 
-Esta evolución sobre lo que era una máquina y qué problemas podía resolver planteó el mismo problema que habíamos subrayado antes. ¿Si podemos clasificar las máquinas que tenemos según su complejidad, podríamos hacerlo con los problemas?
+Esta evolución sobre lo que era una máquina y qué problemas podía resolver planteó el mismo problema que habíamos subrayado antes. Si podemos clasificar las máquinas que tenemos según su complejidad, ¿podríamos hacerlo con los problemas?
 
 \vspace{10px}
 
-Este es fundamentalmente el objeto de estudio de la teoría de autómatas, pues responde fundamentalmente a la pregunta: ¿ Qué máquina necesito para resolver este problema?
+Este es fundamentalmente el objeto de estudio de la teoría de autómatas, pues responde fundamentalmente a la pregunta: ¿Qué máquina necesito para resolver este problema?
 
 \vspace{10px}
 
@@ -118,7 +118,7 @@ Por ejemplo, definamos el siguiente lenguaje, palabras sobre $\{0,1\}$ tales que
 
 %TODO citar el libro que has sacado de la biblioteca
 
-El siguiente autómata sería capaz de clasificar las palabras sobre el lenguaje generado por $\{0,1\}^{*}$ de manera que podría decirnos qué palabras pertenecen exactamente al lenguaje. La correspondencia entre lenguaje y autómata es aun mayor, porque de hecho, este autómata solo acepta las palabras del lenguaje $\mathcal{L}$. Una vez introducidos los conceptos daremos una definición rigurosa. 
+El siguiente autómata sería capaz de clasificar las palabras sobre el lenguaje generado por $\{0,1\}^{*}$ de manera que podría decirnos qué palabras pertenecen exactamente al lenguaje. La correspondencia entre lenguaje y autómata es aún mayor, porque de hecho, este autómata sólo acepta las palabras del lenguaje $\mathcal{L}$. Una vez introducidos los conceptos daremos una definición rigurosa. 
 
 \vspace{10px}
 
@@ -448,7 +448,7 @@ Sin embargo, daremos un salto cualitativo importante e iremos directamente al mo
 \subsubsection{El problema de la parada}
 
 
-Acabamos de mencionar el problema que se presenta cuando una Máquina de Turing no para, pues aunque técnicamente no rechaza la palabra tampoco la acepta. Existe una equivalencia entre función computable ( algoritmo ) y Máquina de Turing (\textbf{Tesis de Church-Turing}), entonces: dada una entrada para un algoritmo o de manera equivalente, dada una máquina de Turing y una palabra sobre su alfabeto ¿ Es posible saber si la palabra será aceptada o rechazada? La respuesta es que no.
+Acabamos de mencionar el problema que se presenta cuando una Máquina de Turing no para, pues aunque técnicamente no rechaza la palabra tampoco la acepta. Existe una equivalencia entre función computable ( algoritmo ) y Máquina de Turing (\textbf{Tesis de Church-Turing}), entonces: dada una entrada para un algoritmo o de manera equivalente, dada una máquina de Turing y una palabra sobre su alfabeto ¿Es posible saber si la palabra será aceptada o rechazada? La respuesta es que no.
 
 \vspace{10px}
 
@@ -471,7 +471,7 @@ Al considerar $Turing(Turing)$ llegamos a contradicción pues el programa para s
 %TODO http://mathworld.wolfram.com/UniversalTuringMachine.html
 \subsubsection{Máquinas de Turing Universales}
 
-Las Máquinas de Turing pueden codificarse mediante símbolos, una Máquina de Turing capaz de leer una codificación de este tipo y comportarse como dicha máquina se conoce como Máquina Universal de Turing. Un sistema de computo que pueda comportarse de esta manera se dice Turing-completo.
+Las Máquinas de Turing pueden codificarse mediante símbolos, una Máquina de Turing capaz de leer una codificación de este tipo y comportarse como dicha máquina se conoce como Máquina Universal de Turing. Un sistema de cómputo que pueda comportarse de esta manera se dice Turing-completo.
 
 \vspace{10px}
 
@@ -483,7 +483,7 @@ Este es uno de los saltos cualitativos de mayor relevancia en la historia de la 
 
 \vspace{10px}
 
-Aunque \textit{a priori} parezca una propiedad muy complicada de tener veremos que existen numerosos sistemas que poseen esta propiedad, no solo modelos teóricos tremendamente complejos, existen una sería de sistemas, en su mayoría juegos, que poseen esta propiedad, quizá el más señalado sea el juego de la vida de Conway. Aunque también podemos contar al 'Pokemon Amarillo' entre los elegidos.
+Aunque \textit{a priori} parezca una propiedad muy complicada de tener veremos que existen numerosos sistemas que poseen esta propiedad, no sólo modelos teóricos tremendamente complejos, existen una sería de sistemas, en su mayoría juegos, que poseen esta propiedad, quizá el más señalado sea el juego de la vida de Conway. Aunque también podemos contar al 'Pokemon Amarillo' entre los elegidos.
 
 %http://aurellem.org/vba-clojure/html/total-control.html
 
@@ -512,7 +512,7 @@ Abordaremos ahora cómo ha ido evolucionando el paradigma de la inteligencia art
 \vspace{10px}
 
 
-El término 'inteligencia artificial' se acuñó en el año 1955 en la 'Conferencia de Dartmouth' y describía al inteligencia artificial como : 'la ciencia e ingeniería de hacer máquinas que se comporten de una forma que llamaríamos inteligente si un humano tuviese dicho comportamiento'.
+El término 'inteligencia artificial' se acuñó en el año 1955 en la 'Conferencia de Dartmouth' y describía la inteligencia artificial como : 'la ciencia e ingeniería de hacer máquinas que se comporten de una forma que llamaríamos inteligente si un humano tuviese dicho comportamiento'.
 
 \vspace{10px} 
 
