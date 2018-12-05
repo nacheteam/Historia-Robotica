@@ -21,13 +21,13 @@ La noción de automatismo será clave para discernir qué es o no es un robot.
 
 Hemos hablado de lo complicado que resulta dar una definición completa de estos conceptos, pues aunque todos sepamos qué es una maquina por extensión, las cualidades que comparten los objetos que llamamos máquinas pueden llegar a ser muy escasas.
 
-\subsubsection{Algebras de Boole y sistemas combinacionales}
+\subsubsection{Álgebras de Boole y sistemas combinacionales}
 
 En el siglo XIX se da otro gran avance cualitativo sobre el entendimiento de qué cosas son máquinas, alejándonos de la definición clásica de los mecanicistas y entrando en el campo de la lógica.
 
 \vspace{10px}
 
-Las algebras de Boole son la base teórica de los sistemas combinacionales (S.C.). Un sistema combinacional es una máquina (según hemos definido) cuya salida es únicamente función de su entrada, es decir, no presenta memoria sobre ningún estado pasado. Este será un aspecto fundamental en el avance de las 'máquinas', su memoria. La habilidad de poder tener presente situaciones anteriores para deliberar en la ejecución actual, y en qué medida se pueda hacer esto, marcará toda una escala de complejidad.
+Las álgebras de Boole son la base teórica de los sistemas combinacionales (S.C.). Un sistema combinacional es una máquina (según hemos definido) cuya salida es únicamente función de su entrada, es decir, no presenta memoria sobre ningún estado pasado. Este será un aspecto fundamental en el avance de las 'máquinas', su memoria. La habilidad de poder tener presente situaciones anteriores para deliberar en la ejecución actual, y en qué medida se pueda hacer esto, marcará toda una escala de complejidad.
 
 \vspace{10px}
 
@@ -40,7 +40,7 @@ Queremos destacar que aunque estos sistemas se consideran típicamente como digi
 
 \vspace{10px}
 
-En 1642 el filósfo y matemático francés Blaise Pascal inventó una calculadora mecánica, \textbf{La pascalina}. Aunque es evidente que hay una gran diferencia entre una calculadora mecánica y una digital, ambas pueden conceptualizarse como sistemas combinacionales; ya que ninguna de las dos tiene memoria sobre ejecuciones anteriores (estados) y el sistema, sean cuales sean sus actuadores, produce una salida como función única de una entrada. 
+En 1642 el filósofo y matemático francés Blaise Pascal inventó una calculadora mecánica, \textbf{La pascalina}. Aunque es evidente que hay una gran diferencia entre una calculadora mecánica y una digital, ambas pueden conceptualizarse como sistemas combinacionales; ya que ninguna de las dos tiene memoria sobre ejecuciones anteriores (estados) y el sistema, sean cuales sean sus actuadores, produce una salida como función única de una entrada. 
 
 
 \subsection{Autómatas finitos}
@@ -50,7 +50,7 @@ En el siglo XX nace la teoría de autómatas como siguiente nivel de conceptuali
 
 \vspace{10px}
 
-Daremos ahora una definición de autómata alejada del mecanicismo anterior, más parecido al modelo abstracto de las algebras de Boole: Un autómata finito es una máquina (abstracta) cuya salida no depende solo de la entrada actual.
+Daremos ahora una definición de autómata alejada del mecanicismo anterior, más parecido al modelo abstracto de las álgebras de Boole: Un autómata finito es una máquina (abstracta) cuya salida no depende solo de la entrada actual.
 
 \vspace{10px}
 
@@ -291,7 +291,7 @@ Un protocolo de comunicación es de los requerimientos más fundamentales, ya no
 
 \vspace{10px}
 
-Hablamos por ejemplo de la implementación del protocolo TCP/IP, que en el fondo, es una máquina de estados finita o como lo venimos llamando: un autómata finito determinista. Daremos un ejemplo de cómo modelar un sistema de autentificación de usuarios con una máquina de estados muy simple.
+Hablamos por ejemplo de la implementación del protocolo TCP/IP, que en el fondo, es una máquina de estados finita o como lo venimos llamando: un autómata finito determinista. Daremos un ejemplo de cómo modelar un sistema de autenticación de usuarios con una máquina de estados muy simple.
 
 \begin{itemize}
 	\item $q_0$ Estado Inicial: En espera
@@ -350,7 +350,7 @@ En cuanto a la función de transición. Supongamos que nuestro sistema incorpora
 \end{center}
 
 
-Podríamos codificar los estados de $Esp$ (espera) y $Act$ (activo) como $000$ y $100$ con lo que tendríamos el estado de error ($E$) codificado como $101$. El autómata describe los posibles pasos en la autentificación de un usuario en un sistema, los estados de 'espera' y 'activo' serían finales dado que son estados 'correctos' en un posible sistema como este. El estado de error, describe justo eso, un comando que no se esperaba dado el estado de la comunicación en el que estábamos. Con este modelo podríamos construir un sistema de autentificación de usuarios usando 3 bits unicamente.
+Podríamos codificar los estados de $Esp$ (espera) y $Act$ (activo) como $000$ y $100$ con lo que tendríamos el estado de error ($E$) codificado como $101$. El autómata describe los posibles pasos en la autenticación de un usuario en un sistema, los estados de 'espera' y 'activo' serían finales dado que son estados 'correctos' en un posible sistema como este. El estado de error, describe justo eso, un comando que no se esperaba dado el estado de la comunicación en el que estábamos. Con este modelo podríamos construir un sistema de autenticación de usuarios usando 3 bits únicamente.
 
 
 \subsection{La jerarquía de Chomsky}
@@ -408,7 +408,7 @@ Pues bien, la jerarquía de Chomsky es una estructura piramidal que refleja cóm
 
 \vspace{1cm}
 
-Los autómatas con pila presentan una generalización de los autómatas finitos. Ya no tenemos una representación tipo grafo pero la manera de leer símbolos con la función $\delta(\cdot)$ es similar. Resaltamos que además del criterio de estados finales ( si terminamos de leer una palabra y estamos en un estado final la palabra es aceptada) los autómatas con pilas presentan un criterio de aceptación equivalente: el criterio de pila vacía; es decir: si al terminar de leer la palabra la pila del autómata está vacía se considerará una palabra válida. Esto se debe a que al leer un símbolo en la palabra en este tipo de autómatas podemos meter o sacar símbolos específicos de una pila ( lifo ).
+Los autómatas con pila presentan una generalización de los autómatas finitos. Ya no tenemos una representación tipo grafo pero la manera de leer símbolos con la función $\delta(\cdot)$ es similar. Resaltamos que además del criterio de estados finales ( si terminamos de leer una palabra y estamos en un estado final la palabra es aceptada) los autómatas con pilas presentan un criterio de aceptación equivalente: el criterio de pila vacía; es decir: si al terminar de leer la palabra la pila del autómata está vacía se considerará una palabra válida. Esto se debe a que al leer un símbolo en la palabra en este tipo de autómatas podemos meter o sacar símbolos específicos de una pila ( LIFO ).
 
 \vspace{10px}
 
@@ -418,7 +418,7 @@ Sin embargo, daremos un salto cualitativo importante e iremos directamente al mo
 
 \subsection{La Máquina de Turing}
 
- Una Máquina de Turing es un tipo de autómata con memoria infinita, se dispone de un conjunto de cardinal numerable infinito en el que podemos guardar símbolos e información temporal. La manera más sencilla de pensar en dichas máquinas es como una pareja: un cabezal lector y una cinta infinita. El cabezal lee un símbolo y se mueve a izquierda o a derecha dependiendo de la función de transición, de manera rigurosa, una Máquina de Turing es una septupla $MT=(Q,A,B,\delta,q_0,\#,F)$
+ Una Máquina de Turing es un tipo de autómata con memoria infinita, se dispone de un conjunto de cardinal numerable infinito en el que podemos guardar símbolos e información temporal. La manera más sencilla de pensar en dichas máquinas es como una pareja: un cabezal lector y una cinta infinita. El cabezal lee un símbolo y se mueve a izquierda o a derecha dependiendo de la función de transición, de manera rigurosa, una Máquina de Turing es una séptupla $MT=(Q,A,B,\delta,q_0,\#,F)$
 
 
 \begin{multicols}{2}
@@ -448,7 +448,7 @@ Sin embargo, daremos un salto cualitativo importante e iremos directamente al mo
 \subsubsection{El problema de la parada}
 
 
-Acabamos de mencionar el problema que se presenta cuando una Máquina de Turing no para, pues aunque técnicamente no rechaza la palabra tampoco la acepta. Existe una equivalencia entre función computable ( algoritmo ) y Máquina de Turing (\textbf{Tesis de Church-Turing}), entonces: dada una entrada para un algoritmo o de manera equivalente, dada una máquina de turing y una palabra sobre su alfabeto ¿ Es posible saber si la palabra será aceptada o rechazada? La respuesta es que no.
+Acabamos de mencionar el problema que se presenta cuando una Máquina de Turing no para, pues aunque técnicamente no rechaza la palabra tampoco la acepta. Existe una equivalencia entre función computable ( algoritmo ) y Máquina de Turing (\textbf{Tesis de Church-Turing}), entonces: dada una entrada para un algoritmo o de manera equivalente, dada una máquina de Turing y una palabra sobre su alfabeto ¿ Es posible saber si la palabra será aceptada o rechazada? La respuesta es que no.
 
 \vspace{10px}
 
@@ -471,7 +471,7 @@ Al considerar $Turing(Turing)$ llegamos a contradicción pues el programa para s
 %TODO http://mathworld.wolfram.com/UniversalTuringMachine.html
 \subsubsection{Máquinas de Turing Universales}
 
-Las Máquinas de Turing pueden codificarse mediante símbolos, una Máquina de Turing capaz de leer una codificiación de este tipo y comportarse como dicha máquina se conoce como Máquina Universal de Turing. Un sistema de computo que pueda comportarse de esta manera se dice Turing-completo.
+Las Máquinas de Turing pueden codificarse mediante símbolos, una Máquina de Turing capaz de leer una codificación de este tipo y comportarse como dicha máquina se conoce como Máquina Universal de Turing. Un sistema de computo que pueda comportarse de esta manera se dice Turing-completo.
 
 \vspace{10px}
 
@@ -519,7 +519,7 @@ El término 'inteligencia artificial' se acuñó en el año 1955 en la 'Conferen
 Como campo de investigación nace un año después en 1956, en la ciudad de Hannover,New Hampshire (EEUU). Mencionaremos otras dos definiciones que muestran la dualidad de la que hablábamos antes:
 
 \begin{itemize}
-	\item 'La intelgencia artifical está relacionada con conductas inteligentes en artefactos' (Nilsson,1998).
+	\item 'La inteligencia artificial está relacionada con conductas inteligentes en artefactos' (Nilsson,1998).
 	\item 'El nuevo y excitante esfuerzo de hacer que los computadores piensen...,máquinas con mentes, en el sentido más literal' (Haugeland,1985).
 \end{itemize}
 
@@ -545,9 +545,9 @@ Destacamos la siguiente noticia del diario \href{https://www.abc.es/ciencia/2014
 
 \subsubsection{La habitación china}
 
-El test de Turing puede parecer a primera vista un método que, bajo una prueba suficientemente rigurosa, puede aportar un aserto creible en torno a si la máquina en cuestión está teniendo un comportamiento inteligente; es decir: es capaz de engañar a su interlocutor humano captando y entendiendo el significado de los mensajes y respondiendo de manera acorde. Sin embargo existen críticas a este test, la más famosa, \textbf{la habitación china}: Este experimento modela una situación en el que se pasaría el test de Turing sin haber demostrado ningún comportamiento inteligente, invalidando el test.
+El test de Turing puede parecer a primera vista un método que, bajo una prueba suficientemente rigurosa, puede aportar un aserto creíble en torno a si la máquina en cuestión está teniendo un comportamiento inteligente; es decir: es capaz de engañar a su interlocutor humano captando y entendiendo el significado de los mensajes y respondiendo de manera acorde. Sin embargo existen críticas a este test, la más famosa, \textbf{la habitación china}: Este experimento modela una situación en el que se pasaría el test de Turing sin haber demostrado ningún comportamiento inteligente, invalidando el test.
 
-Supongamos que tenemos la siguiente disposición en la prueba del test de Turing. Tenemos dos intelocutores, uno comunicándose en chino y otro en inglés. De manera que el interlocutor inglés tiene en su poder una chuleta para el examen, un conjunto de reglas que especifican cuál es la respuesta, de manera detallada, para los caracteres de entrada. Entonces, podría existir una comunicación real entre los dos interlocutores sin que uno de ellos tuviese idea alguna del contenido de los mensajes.
+Supongamos que tenemos la siguiente disposición en la prueba del test de Turing. Tenemos dos interlocutores, uno comunicándose en chino y otro en inglés. De manera que el interlocutor inglés tiene en su poder una chuleta para el examen, un conjunto de reglas que especifican cuál es la respuesta, de manera detallada, para los caracteres de entrada. Entonces, podría existir una comunicación real entre los dos interlocutores sin que uno de ellos tuviese idea alguna del contenido de los mensajes.
 
 \vspace{10px}
 
@@ -564,7 +564,7 @@ Sin embargo, al igual que planteamos con el concepto de 'máquina' al principio,
 \subsubsection{Agentes Inteligentes}
 
 
-La noción de agente es parecida a la definición de autómata más clásica: un sistema capaz de interactuar de forma autómatica con el entorno, dotado de sensores y con capacidad de reaccionar ante la información que estos le brinden. La clase de complejidad a la que pertenezcan estos agentes ya es harina de otro costal; podríamos tener un ordenador (Máquina de Turing universal), controlando un agente, con lo cual su modelo de complejidad teórico estaría en lo alto de la jerarquía. También podríamos tener un agente con un mecanismo de respuesta muy sencillo descrito por un autómata, lo mostramos con un ejemplo.
+La noción de agente es parecida a la definición de autómata más clásica: un sistema capaz de interactuar de forma automática con el entorno, dotado de sensores y con capacidad de reaccionar ante la información que estos le brinden. La clase de complejidad a la que pertenezcan estos agentes ya es harina de otro costal; podríamos tener un ordenador (Máquina de Turing universal), controlando un agente, con lo cual su modelo de complejidad teórico estaría en lo alto de la jerarquía. También podríamos tener un agente con un mecanismo de respuesta muy sencillo descrito por un autómata, lo mostramos con un ejemplo.
 
 
 \vspace{10px}
@@ -594,7 +594,7 @@ Los robots levantaron bastante expectación pues estaban programados para acerca
 
 \vspace{10px}
 
-Aunque es verdad que siguiendo la definición purista hay que considerarlos como agentes deliberativos, pues toman la acción de acercarse o alejarse de la luz en función de unos parámetros de representacón interna (como es el porcentaje de carga en este caso),presentan un comportamiento y un razonamiento bastante limitado en comparación con algo con lo que podemos estar muy acostumbrados: un típico robot de limpieza, como comentábamos antes.
+Aunque es verdad que siguiendo la definición purista hay que considerarlos como agentes deliberativos, pues toman la acción de acercarse o alejarse de la luz en función de unos parámetros de representación interna (como es el porcentaje de carga en este caso),presentan un comportamiento y un razonamiento bastante limitado en comparación con algo con lo que podemos estar muy acostumbrados: un típico robot de limpieza, como comentábamos antes.
 
 \subsection{Fronteras}
 
@@ -606,7 +606,7 @@ Estas preguntas son más serias de lo que parecen en un mundo cada vez más info
 
 \vspace{10px}
 
-Citando a Turing (1950): \textbf{'Solo podemos preveer el futuro inmediato, pero de lo que cabe duda es de que hay mucho por hacer'}.
+Citando a Turing (1950): \textbf{'Solo podemos prever el futuro inmediato, pero de lo que cabe duda es de que hay mucho por hacer'}.
 
 
 
