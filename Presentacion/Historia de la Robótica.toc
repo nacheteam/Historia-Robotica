@@ -1,3 +1,2 @@
-\beamer@endinputifotherversion {3.33pt}
-\select@language {spanish}
-\beamer@sectionintoc {1}{Etapa Primeriza}{3}{0}{1}
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Etapa Primeriza}{4}{0}{1}

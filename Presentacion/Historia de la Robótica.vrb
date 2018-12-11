@@ -3,17 +3,17 @@
 \pause
 \metroset{block=fill}
 \begin{block}
-\begin{itemize}
-\item Arquitas de Tarento
-\pause
-\item Apolonio de Pérgamo
-\pause
-\item Ctesibio de Alejandría
-\pause
-\item Filón de Bizancio
-\pause
-\item Herón de Alejandría
-\pause
-\item Alejandro Magno
-\end{itemize}
+	\begin{itemize}
+		\item Arquitas de Tarento
+		\pause
+		\item Apolonio de Pérgamo
+		\pause
+		\item Ctesibio de Alejandría
+		\pause
+		\item Filón de Bizancio
+		\pause
+		\item Herón de Alejandría
+		\pause
+		\item Alejandro Magno
+	\end{itemize}
 \end{block}
