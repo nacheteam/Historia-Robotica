@@ -1,2 +1,3 @@
 \babel@toc {spanish}{}
-\beamer@sectionintoc {1}{Etapa Primeriza}{4}{0}{1}
+\beamer@sectionintoc {1}{Etapa Primeriza}{3}{0}{1}
+\beamer@sectionintoc {2}{Etapa Moderna}{21}{0}{2}

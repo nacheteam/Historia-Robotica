@@ -1,19 +1,21 @@
-\frametitle{Orígenes Greigos de la Robótica}
-\vspace{8px}
+\frametitle{Robots Humanoides}
+\vspace{10px}
 \pause
 \metroset{block=fill}
-\begin{block}
+\begin{block}{Principales Robots}
 	\begin{itemize}
-		\item Arquitas de Tarento
+		\item Actroid: asistente por voz sencillo.
 		\pause
-		\item Apolonio de Pérgamo
+		\item Wakamaru: robot para las casas.
 		\pause
-		\item Ctesibio de Alejandría
+		\item iCub: imitación de movimientos humanos complejos.
 		\pause
-		\item Filón de Bizancio
-		\pause
-		\item Herón de Alejandría
-		\pause
-		\item Alejandro Magno
+		\item Sophia: interacción oral y gestual. Gestión de las emociones.
 	\end{itemize}
 \end{block}
+\begin{figure}
+	\centering
+	\pause
+	\includegraphics[scale=0.12]{./EtapaModerna/Imagenes/robots_humanoides.png}
+	\caption{Actroid \href{https://commons.wikimedia.org/wiki/File:Actroid_3.jpg}{Wikimedia}, Wakamaru \href{https://commons.wikimedia.org/wiki/File:Wakamaru-fullshot2011.jpg}{Wikimedia}, iCub \href{https://commons.wikimedia.org/wiki/File:ICub_Innorobo_Lyon_2014.JPG}{Wikimedia}, Sophia \href{https://es.wikipedia.org/wiki/Archivo:Sophia_(robot).jpg}{Wikimedia}}
+\end{figure}
