@@ -4,13 +4,13 @@
 \metroset{block=fill}
 \begin{block}{Principales Robots}
 	\begin{itemize}
-		\item Actroid: asistente por voz sencillo.
+		\item Actroid: asistente por voz sencillo. \href{https://www.youtube.com/watch?v=p-8GEcLRRAM}{(Vídeo)}
 		\pause
-		\item Wakamaru: robot para las casas.
+		\item Wakamaru: robot para las casas. \href{https://www.youtube.com/watch?v=k6zB-HDtI_0}{(Vídeo)}
 		\pause
-		\item iCub: imitación de movimientos humanos complejos.
+		\item iCub: imitación de movimientos humanos complejos. \href{https://www.youtube.com/watch?v=ZcTwO2dpX8A}{(Vídeo)}
 		\pause
-		\item Sophia: interacción oral y gestual. Gestión de las emociones.
+		\item Sophia: interacción oral y gestual. Gestión de las emociones. \href{https://www.youtube.com/watch?v=Bg_tJvCA8zw}{(Vídeo)}
 	\end{itemize}
 \end{block}
 \begin{figure}
