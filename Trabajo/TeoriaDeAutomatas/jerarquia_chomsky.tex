@@ -1,0 +1,58 @@
+El lenguaje que puede reconocer un autómata finito recibe el nombre de lenguaje regular, ya sea el autómata determinista, no-determinista o no-determinista con transiciones nulas, pues como comentábamos el paso de uno a otro se lleva a cabo mediante un procedimiento algorítmico.
+
+\vspace{10px}
+
+Un concepto íntimamente relacionado con el de lenguaje, como aquí lo hemos visto, es el concepto de gramática, a saber: las reglas de producción a seguir para crear una palabra del lenguaje. Distinguiremos símbolos terminales (escritos con letras mayúsculas) y símbolos no-terminales, notados con letras minúsculas. La gramática asociada a un lenguaje regular tiene la siguiente forma:
+
+
+$$ A \rightarrow a B \quad \quad A \rightarrow a$$
+
+Esto quiere decir que cada símbolo no terminal se intercambia por un símbolo terminal y otro no terminal a lo sumo y que, cada símbolo no terminal es resoluble, es decir, siempre se puede intercambiar por uno terminal. Pongamos un ejemplo:
+
+\vspace{10px}
+
+Sea $\mathcal{L}=\{0,1\}^*$ el conjunto de todas las palabras que se pueden formar yuxtaponiendo 0's y 1's. Su gramática vendría dada por:
+
+
+\begin{multicols}{2}
+	\begin{itemize}
+		\item $A \rightarrow 1$
+		\item $A \rightarrow 0$
+		\item $A \rightarrow 1A$
+		\item $A \rightarrow 0A$
+	\end{itemize}
+\end{multicols}
+
+
+Esta gramática es muy sencilla debido al alto número de restricciones bajo las que se ha concebido, si eliminamos dichas restricciones aumentamos la expresividad del lenguaje, aumentando así la complejidad del modelo de computación que tendrá asociado, como el caso de los autómatas finitos para los lenguajes regulares.
+
+\vspace{10px}
+
+Pues bien, la jerarquía de Chomsky es una estructura piramidal que refleja cómo aumenta la complejidad del lenguaje conforme eliminamos restricciones en la gramática:
+
+\vspace{1cm}
+
+
+\begin{center}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Gramática & Lenguaje  &Reglas de producción   & Autómata  \\
+		\hline
+		Tipo 0	& recursivamente enumerable  & sin restricciones  & Máquina de Turing  \\
+		\hline
+		Tipo 1	& dependiente del contexto  & $\alpha A \beta \rightarrow \alpha \gamma \beta$ & linealmente acotado  \\
+		\hline
+		Tipo 2	& independiente del contexto  & $A \rightarrow \gamma $  & autómata con pila   \\
+		\hline
+		Tipo 3	& regular  & (*) & autómata finito \\
+		\hline
+	\end{tabular}
+\end{center}
+
+\vspace{1cm}
+
+Los autómatas con pila presentan una generalización de los autómatas finitos. Ya no tenemos una representación tipo grafo pero la manera de leer símbolos con la función $\delta(\cdot)$ es similar. Resaltamos que además del criterio de estados finales ( si terminamos de leer una palabra y estamos en un estado final la palabra es aceptada) los autómatas con pilas presentan un criterio de aceptación equivalente: el criterio de pila vacía; es decir: si al terminar de leer la palabra la pila del autómata está vacía se considerará una palabra válida. Esto se debe a que al leer un símbolo en la palabra en este tipo de autómatas podemos meter o sacar símbolos específicos de una pila ( LIFO ).
+
+\vspace{10px}
+
+Sin embargo, daremos un salto cualitativo importante e iremos directamente al modelo computacional más complejo de la jerarquía: Las Máquinas de Turing.

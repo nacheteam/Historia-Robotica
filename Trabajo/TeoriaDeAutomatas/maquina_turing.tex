@@ -1,0 +1,85 @@
+Una Máquina de Turing es un tipo de autómata con memoria infinita, se dispone de un conjunto de cardinal numerable infinito en el que podemos guardar símbolos e información temporal. La manera más sencilla de pensar en dichas máquinas es como una pareja: un cabezal lector y una cinta infinita. El cabezal lee un símbolo y se mueve a izquierda o a derecha dependiendo de la función de transición, de manera rigurosa, una Máquina de Turing es una séptupla $MT=(Q,A,B,\delta,q_0,\#,F)$
+
+
+\begin{multicols}{2}
+	\begin{itemize}
+		\item $Q$  Conjunto finito de estados
+		\item $A$  Alfabeto de entrada
+		\item $B$  Alfabeto de símbolos en la cinta , $A\subset B$
+		\item $\delta$ Función de transición
+		\item $q_0$ Estado inicial
+		\item $\# \in B-A$ El 'símbolo blanco'
+		\item $F$ Conjunto de estados finales
+	\end{itemize}
+\end{multicols}
+
+
+ Una transición típica de una Máquina de Turing sería: $\delta(q_0,0)=(q_1,\#,D)$. Esto quiere decir que si estando en el estado $q_0$ el cabezal lector de la cinta está posicionado sobre una de las celdas de la cinta que contiene un 0, cambiaremos dicho 0 por un $\#$ y moveremos el cabezal lector a la derecha.
+
+ \vspace{10px}
+
+ A diferencia de un autómata finito que tenía que leer la palabra entera para verificar que pertenecía al lenguaje, se dice que una Máquina de Turing acepta una palabra siempre y cuando llegue a un estado de aceptación, aunque queden símbolos por leer.
+
+ \vspace{10px}
+
+ En caso de que lleguemos a un estado no final y ya hayamos terminado de leer la palabra se dice que esta se ha rechazado; el problema llega cuando la máquina cicla de manera indefinida.
+
+
+\subsubsection{El problema de la parada}
+
+
+Acabamos de mencionar el problema que se presenta cuando una Máquina de Turing no para, pues aunque técnicamente no rechaza la palabra tampoco la acepta. Existe una equivalencia entre función computable ( algoritmo ) y Máquina de Turing (\textbf{Tesis de Church-Turing}), entonces: dada una entrada para un algoritmo o de manera equivalente, dada una máquina de Turing y una palabra sobre su alfabeto ¿Es posible saber si la palabra será aceptada o rechazada? La respuesta es que no.
+
+\vspace{10px}
+
+Alan Turing en su artículo \textbf{On Computable Numbers, with an Application to the Entscheidungsproblem} (1936) demostró que existían problemas indecidibles, entre los cuales se encuentra este. La demostración es sencilla:
+
+\vspace{10px}
+
+Supongamos que existe $Stop(P,x)$ un algoritmo capaz de averiguar si el programa $P$ para con los datos $x$. Construimos entonces:
+
+\begin{lstlisting}
+Turing(P):
+
+L	If Stops(P,P), GOTO L
+\end{lstlisting}
+
+\vspace{0.5cm}
+
+Al considerar $Turing(Turing)$ llegamos a contradicción pues el programa para si y solo si no para.
+
+%TODO http://mathworld.wolfram.com/UniversalTuringMachine.html
+\subsubsection{Máquinas de Turing Universales}
+
+Las Máquinas de Turing pueden codificarse mediante símbolos, una Máquina de Turing capaz de leer una codificación de este tipo y comportarse como dicha máquina se conoce como Máquina Universal de Turing. Un sistema de cómputo que pueda comportarse de esta manera se dice Turing-completo.
+
+\vspace{10px}
+
+La primera máquina Turing-completa fue el Z3 de Zuse construida en 1941, aunque dicha propiedad fuese demostrada por Raúl Rojas en 1998.
+
+\vspace{10px}
+
+Este es uno de los saltos cualitativos de mayor relevancia en la historia de la computación pues es el inicio de los ordenadores tal y como los conocemos, máquinas capaces de leer algoritmos y ejecutarlos, capaces de ser cualquier máquina.
+
+\vspace{10px}
+
+Aunque \textit{a priori} parezca una propiedad muy complicada de tener veremos que existen numerosos sistemas que poseen esta propiedad, no solo modelos teóricos tremendamente complejos, existen una sería de sistemas, en su mayoría juegos, que poseen esta propiedad, quizá el más señalado sea el juego de la vida de Conway. Aunque también podemos contar al 'Pokemon Amarillo' entre los elegidos.
+
+%http://aurellem.org/vba-clojure/html/total-control.html
+
+
+
+%TODO meter cita
+\subsubsection{El juego de la vida: casualmente Turing-completo}
+
+El juego de la vida consta de un tablero, en él, las celdas pueden clasificarse como vivas o muertas, se pintan en negro o blanco dependiendo de en qué categoría se encuentren. Una configuración inicial sería un conjunto cualquiera de células vivas. El juego posee 2 reglas:
+
+\begin{multicols}{2}
+	\begin{itemize}
+		\item Una casilla con exactamente 3 vecinas 'vivas' nace.
+		\item Una casilla con 2 o 3 vecinas vivas sigue viva, en otro caso muere.
+	\end{itemize}
+\end{multicols}
+
+
+Pues bien, este juego de 0 jugadores, con estas dos reglas es Turing-completo. Cuenta con la misma capacidad expresiva que cualquier máquina de Turing y usando únicamente configuraciones del posible tablero, podríamos programar al igual que en un ordenador convencional.

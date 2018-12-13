@@ -1,0 +1,88 @@
+Abordaremos ahora cómo ha ido evolucionando el paradigma de la inteligencia artificial, desde la inteligencia fuerte ( hacer que las máquinas sean inteligentes ) hasta la débil ( hacer que se comporten de manera inteligente ).
+
+\vspace{10px}
+
+
+El término 'inteligencia artificial' se acuñó en el año 1955 en la 'Conferencia de Dartmouth' y describía la inteligencia artificial como : 'la ciencia e ingeniería de hacer máquinas que se comporten de una forma que llamaríamos inteligente si un humano tuviese dicho comportamiento'.
+
+\vspace{10px}
+
+Como campo de investigación nace un año después en 1956, en la ciudad de Hannover, New Hampshire (EEUU). Mencionaremos otras dos definiciones que muestran la dualidad de la que hablábamos antes:
+
+\begin{itemize}
+	\item 'La inteligencia artificial está relacionada con conductas inteligentes en artefactos' (Nilsson,1998).
+	\item 'El nuevo y excitante esfuerzo de hacer que los computadores piensen...,máquinas con mentes, en el sentido más literal' (Haugeland,1985).
+\end{itemize}
+
+La primera definición se centra más en lo que hemos llamado 'inteligencia débil': conseguir que una máquina se comporte de manera inteligente. La segunda es algo más problemática pues si nos cuesta definir y entender el concepto de inteligencia, dotar a un ser inanimado de capacidad de pensamiento como tal, se plantea como un problema mucho más complicado que cualquiera con el que nos hayamos topado antes.
+
+\vspace{10px}
+
+A colación de esto último comentamos que Turing escribió un articulo en 1950 llamado 'Computing machines and intelligence' en el que propone cuestiones como: ¿Pueden pensar las máquinas?
+
+
+\subsubsection{El Test de Turing}
+
+En dicho artículo Turing propuso un 'test', una prueba que podría hacérsele a una computadora para comprobar si en efecto, presenta algún tipo de inteligencia.
+
+\vspace{10px}
+
+En dicha prueba una persona conversa con un interlocutor al que no ve e intenta adivinar si dicho interlocutor es un ser humano o una computadora. Si la computadora consigue engañar al humano se dice que ha pasado el test. Evidentemente esta conversación no puede delimitarse a ningún tema trivial o a un campo muy delimitado, donde sería fácil engañar al interlocutor humano.
+
+\vspace{10px}
+
+Destacamos la siguiente noticia del diario \href{https://www.abc.es/ciencia/20140609/abci-superordenador-supera-primera-test-201406091139.html}{\textbf{ABC}} de 2014 en el que un ordenador fue capaz de engañar a los jueces del test, haciéndoles creer que era un joven ucraniano de 13 años.
+
+
+\subsubsection{La habitación china}
+
+El test de Turing puede parecer a primera vista un método que, bajo una prueba suficientemente rigurosa, puede aportar un aserto creíble en torno a si la máquina en cuestión está teniendo un comportamiento inteligente; es decir: es capaz de engañar a su interlocutor humano captando y entendiendo el significado de los mensajes y respondiendo de manera acorde. Sin embargo existen críticas a este test, la más famosa, \textbf{la habitación china}: Este experimento modela una situación en el que se pasaría el test de Turing sin haber demostrado ningún comportamiento inteligente, invalidando el test.
+
+Supongamos que tenemos la siguiente disposición en la prueba del test de Turing. Tenemos dos interlocutores, uno comunicándose en chino y otro en inglés. De manera que el interlocutor inglés tiene en su poder una chuleta para el examen, un conjunto de reglas que especifican cuál es la respuesta, de manera detallada, para los caracteres de entrada. Entonces, podría existir una comunicación real entre los dos interlocutores sin que uno de ellos tuviese idea alguna del contenido de los mensajes.
+
+\vspace{10px}
+
+El interlocutor inglés pasaría la prueba del test de Turing burlando su metodología, sin haber demostrado un comportamiento inteligente, emparejando únicamente respuestas y preguntas sin llegar a comprender nada de su contenido.
+
+\vspace{10px}
+
+El problema reside en que definir qué es ser inteligente es complicado, pues como comentamos al principio del texto, hay numeroso grupos de elementos en este campo que clasificamos por extensión. Un comportamiento es inteligente si es parecido a un comportamiento que ya teníamos categorizado como inteligente. El espíritu del test de Turing refleja esto a la perfección pues concluimos que la máquina es inteligente si es capaz de reproducir un comportamiento humano que ya hemos concluido que es inteligente.
+
+\vspace{10px}
+
+Sin embargo, al igual que planteamos con el concepto de 'máquina' al principio, se hace complicado saber de manera concisa y concreta si un elemento pertenece a un grupo generado por extensión, clara prueba de ello es \textbf{la habitación china} que, teóricamente, invalida el test de Turing, que aun con todo esto, sigue en uso.
+
+\subsubsection{Agentes Inteligentes}
+
+
+La noción de agente es parecida a la definición de autómata más clásica: un sistema capaz de interactuar de forma automática con el entorno, dotado de sensores y con capacidad de reaccionar ante la información que estos le brinden. La clase de complejidad a la que pertenezcan estos agentes ya es harina de otro costal; podríamos tener un ordenador (Máquina de Turing universal), controlando un agente, con lo cual su modelo de complejidad teórico estaría en lo alto de la jerarquía. También podríamos tener un agente con un mecanismo de respuesta muy sencillo descrito por un autómata, lo mostramos con un ejemplo.
+
+
+\vspace{10px}
+
+Quizá la manera más familiar de pensar en un agente es imaginarlo como un robot de limpieza. Tenemos un mecanismo, capaz de llevar a cabo una tarea de forma automática, basándose en la información que percibe de unos sensores y en alguna forma programada de toma de decisiones. Dependiendo de lo laboriosa que sea el mecanismo de toma de decisiones, el agente podrá ser clasificado en uno de los campos de complejidad que comentábamos antes; pero sea cual sea, categoriza como agente.
+
+\vspace{10px}
+
+Supongamos que uno de estos agentes tiene el siguiente mecanismo de toma de decisiones. El agente puede estar en movimiento o haber chocado, en caso de haber chocado giramos de manera aleatoria a izquierda o a derecha 90º y seguimos recto. Bueno, por muy sencillo que sea este funcionamiento, el robot se moverá y limpiará la habitación ( aunque es posible que se quede dando vueltas en alguna esquina ). Esto se conoce como \textbf{agente reactivo}: un agente que toma decisiones basándose únicamente en los input actuales. Estos agentes se encontrarían en la escala de complejidad más baja, son \textbf{sistemas combinacionales}, pues no guardan información anterior para orientarse y tienen predefinida una respuesta para los estímulos de entrada producidos por los sensores.
+
+
+\vspace{10px}
+
+Podemos pensar que tener tantos modelos de computación para crear un robot como el que acabamos de describir es decepcionante. Pues de aquí nace el concepto de \textbf{agente deliberativo}. Es decir, el agente no solo reacciona al impulso, delibera sobre el input e intenta tomar la 'mejor opción'. Un agente se considera deliberativo cuando tiene en memoria un esquema de representación del mundo en el que se mueve. Una vez más vemos como la capacidad de tener memoria nos permite dar saltos cualitativos en lo que a complejidad se refiere.
+
+\vspace{10px}
+
+En contraposición al primer ejemplo, supongamos de nuevo que el agente ha chocado; este sería un típico comportamiento deliberativo: Marcar en memoria que en la posición actual hay un muro, planificar una ruta (usando el algoritmo $A^*$ por ejemplo) a la siguiente zona por la que no hayamos pasado todavía y seguir recorriendo la habitación.
+
+\subsubsection{Las tortugas de Walter: un ejemplo de agente}
+
+Estos agentes fueron diseñados en 1948 por W. Grey Walter, cuya intención era la de probar que con mecanismos rudimentarios se podían crear comportamientos complejos. La funcionalidad básica del robot era la siguiente: constaban de 2 grupos de sensores unos de presión para evitar choques y otros fotosensibles. Además los robots podían moverse y girar con libertad y autonomía.
+
+\vspace{10px}
+
+Los robots levantaron bastante expectación pues estaban programados para acercarse o alejarse de la luz dependiendo de el estado de su batería. Esto coincidía con el hecho de que las plataformas de carga se situasen cercanas a los focos de luz intensa. Estos agentes conseguían moverse con cierta libertad y mostraban comportamientos típicos de animales, acercarse o alejarse de la luz dependiendo de su ciclo 'energético'; pero, ¿Es esto un comportamiento inteligente?
+
+\vspace{10px}
+
+Aunque es verdad que siguiendo la definición purista hay que considerarlos como agentes deliberativos, pues toman la acción de acercarse o alejarse de la luz en función de unos parámetros de representación interna (como es el porcentaje de carga en este caso),presentan un comportamiento y un razonamiento bastante limitado en comparación con algo con lo que podemos estar muy acostumbrados: un típico robot de limpieza, como comentábamos antes.
