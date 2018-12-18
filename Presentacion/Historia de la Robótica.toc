@@ -1,3 +1,4 @@
 \babel@toc {spanish}{}
-\beamer@sectionintoc {1}{Etapa Primeriza}{3}{0}{1}
-\beamer@sectionintoc {2}{Etapa Moderna}{51}{0}{2}
+\beamer@sectionintoc {1}{Aut\IeC {\'o}matas e Inteligencia artificial}{3}{0}{1}
+\beamer@sectionintoc {2}{Etapa Primeriza}{38}{0}{2}
+\beamer@sectionintoc {3}{Etapa Moderna}{86}{0}{3}
