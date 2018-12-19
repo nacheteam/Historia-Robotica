@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.33pt}
-\select@language {spanish}
+\babel@toc {spanish}{}
 \beamer@sectionintoc {1}{Aut\IeC {\'o}matas e Inteligencia artificial}{3}{0}{1}
 \beamer@sectionintoc {2}{Etapa Primeriza}{38}{0}{2}
+\beamer@sectionintoc {3}{Etapa Moderna}{85}{0}{3}
