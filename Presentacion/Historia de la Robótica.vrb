@@ -1,21 +1,16 @@
-\frametitle{Robots Humanoides}
+\frametitle{Máquina Calculadora de Pascal}
 \vspace{10px}
 \pause
 \metroset{block=fill}
-\begin{block}{Principales Robots}
-	\begin{itemize}
-		\item Actroid: asistente por voz sencillo. \href{https://www.youtube.com/watch?v=p-8GEcLRRAM}{(Vídeo)}
-		\pause
-		\item Wakamaru: robot para las casas. \href{https://www.youtube.com/watch?v=k6zB-HDtI_0}{(Vídeo)}
-		\pause
-		\item iCub: imitación de movimientos humanos complejos. \href{https://www.youtube.com/watch?v=ZcTwO2dpX8A}{(Vídeo)}
-		\pause
-		\item Sophia: interacción oral y gestual. Gestión de las emociones. \href{https://www.youtube.com/watch?v=S5t6K9iwcdw}{(Vídeo)}
-	\end{itemize}
+\begin{block}{}
+\begin{itemize}
+\item Blaise Pascal (1623-1662)
+\pause
+\item Calculadora más antigua (1642)
+\end{itemize}
 \end{block}
 \begin{figure}
-	\centering
-	\pause
-	\includegraphics[scale=0.12]{./EtapaModerna/Imagenes/robots_humanoides.png}
-	\caption{Actroid \href{https://commons.wikimedia.org/wiki/File:Actroid_3.jpg}{Wikimedia}, Wakamaru \href{https://commons.wikimedia.org/wiki/File:Wakamaru-fullshot2011.jpg}{Wikimedia}, iCub \href{https://commons.wikimedia.org/wiki/File:ICub_Innorobo_Lyon_2014.JPG}{Wikimedia}, Sophia \href{https://es.wikipedia.org/wiki/Archivo:Sophia_(robot).jpg}{Wikimedia}}
+\centering
+\includegraphics[scale=0.3]{./EtapaPrimeriza/imagenes/cp.jpg}
+\caption{Calculadora Pascalina {\href{https://www.tispain.com/2014/11/la-pascalina-la-primera-calculadora.html}{link}}
 \end{figure}
